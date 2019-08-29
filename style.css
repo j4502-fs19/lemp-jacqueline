@@ -1,9 +1,29 @@
 /*styles go here*/
 
 p {
-  color: purple;
+  color: white;
 }
 
 img{
   border-style: none;
+}
+
+body{
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+li {
+  color: white;
 }
