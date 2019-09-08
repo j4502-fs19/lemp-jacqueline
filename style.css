@@ -1,16 +1,7 @@
 /*styles go here*/
 
-h1, h2, ul, li, img, p, a{
-  text-align: center;
-  text-decoration: none;
-}
-
 p {
   color: #214000;
-}
-
-img{
-  border-style: none;
 }
 
 body{
@@ -19,12 +10,12 @@ body{
 
 h1 {
   color: #5A597D;
-font-family: 'Cookie', cursive, 'Playfair Display', serif, 'Times New Roman' serif;
+font-family: "Cookie", "Playfair Display", "Times New Roman", serif;
 }
 
 h2 {
   color: #459880;
-  font-family: 'Arimo', sans-serif, 'Asap', sans-serif;
+  font-family: "Arimo", "Asap", sans-serif;
 }
 
 ul {
@@ -37,4 +28,9 @@ li {
   color: #5A597D;
   font-family: Georgia, 'Times New Roman' serif;
   text-decoration: none;
+}
+
+#nav {
+  padding: 0;
+  list-style-type: none;
 }
