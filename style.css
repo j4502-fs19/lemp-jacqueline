@@ -18,19 +18,24 @@ h2 {
   font-family: "Arimo", "Asap", sans-serif;
 }
 
-ul {
-  color: grey;
-  font-family: 'Times New Roman' serif;
-  text-decoration: none;
-}
-
-li {
-  color: #5A597D;
-  font-family: Georgia, 'Times New Roman' serif;
-  text-decoration: none;
-}
-
 #nav {
   padding: 0;
-  list-style-type: none;
+  list-style-type:none;
+
+}
+
+#nav li{
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  list-style-type:none;
+}
+
+#nav a:link, a:visited {
+display:block;
+color: #fff;
+background-color: #854DFF;
+font-weight:bold;
+text-align: center;
+text-decoration: none;
+
 }
