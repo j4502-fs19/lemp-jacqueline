@@ -2,19 +2,22 @@
 
 p {
   color: #214000;
+  text-align: center;
 }
 
-body{
+body {
   background-color: lavender;
 }
 
 h1 {
+  text-align:center;
   color: #5A597D;
 font-family: "Cookie", "Playfair Display", "Times New Roman", serif;
 font-style: italic;
 }
 
 h2 {
+  text-align: center;
   color: #459880;
   font-family: "Arimo", "Asap", sans-serif;
 }
@@ -49,4 +52,9 @@ background-color: #6300BF
   font-style: italic;
   text-align: center;
   font-size: 0.8em;
+  margin-top: 0;
+}
+
+img {
+  border: none;
 }
