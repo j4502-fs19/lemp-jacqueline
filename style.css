@@ -1,7 +1,12 @@
 /*styles go here*/
 
+h1, h2, ul, li, img, p, a{
+  text-align: center;
+  text-decoration: none;
+}
+
 p {
-  color: white;
+  color: #214000;
 }
 
 img{
@@ -9,21 +14,27 @@ img{
 }
 
 body{
-  background-color: black;
+  background-color: lavender;
 }
 
 h1 {
-  color: white;
+  color: #5A597D;
+font-family: 'Cookie', cursive, 'Playfair Display', serif, 'Times New Roman' serif;
 }
 
 h2 {
-  color: white;
+  color: #459880;
+  font-family: 'Arimo', sans-serif, 'Asap', sans-serif;
 }
 
 ul {
-  color: white;
+  color: grey;
+  font-family: 'Times New Roman' serif;
+  text-decoration: none;
 }
 
 li {
-  color: white;
+  color: #5A597D;
+  font-family: Georgia, 'Times New Roman' serif;
+  text-decoration: none;
 }
