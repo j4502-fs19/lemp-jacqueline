@@ -55,3 +55,10 @@ background-color: #6300BF
 img {
   border: none;
 }
+
+.nav {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
