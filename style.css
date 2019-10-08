@@ -42,6 +42,7 @@ color: #fff;
 background-color: #854DFF;
 font-family: 'Cabin', Georgia, sans-serif;
 font-weight:bold;
+font-size: 32px;
 text-align: center;
 text-decoration: none;
 padding: 4px;
@@ -54,11 +55,18 @@ background-color: #6300BF
 
 img {
   border: none;
+  background-color: none;
 }
 
 .nav {
   display: flex;
+  height: 150px;
 	flex-direction: row;
-	justify-content: space-around;
+	align-content: flex-end;
+  align-content: center;
+  align-content: space-around;
+  justify-content: space-around;
 	flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 5px;
 }
