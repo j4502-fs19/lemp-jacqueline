@@ -73,6 +73,19 @@ img {
 	flex-wrap: wrap;
   padding: 10px;
   border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 400px){
+  .cards {
+    margin: 0 -10px;
+    padding: 8px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -82,7 +95,7 @@ img {
   padding: 8px;
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 20px;
 }
 
@@ -96,6 +109,15 @@ h2{
 
 
 @media screen and (min-width: 800px) {
+
+  .cards {
+    margin: 0 -10px;
+    padding: 8px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    
   h2{
     font-size:1.5em;
   }
