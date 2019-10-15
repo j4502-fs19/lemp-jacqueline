@@ -21,7 +21,7 @@ font-weight: 700;
 
 h2 {
   text-align: center;
-  color: #14C200;
+  color: black;
   font-family: 'Oswald', Helvetica, sans-serif;
   font-weight: 300;
 }
@@ -75,7 +75,9 @@ img {
   h2{
     font-size:2em;
   }
-
+#nav a:link, a:visited {
+  font-size:2em;
+}
 }
 
 @media screen and (max-width: 800px) {
