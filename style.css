@@ -80,7 +80,7 @@ img {
 }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 600px) {
 
 }
 
@@ -89,6 +89,8 @@ img {
     padding: 0;
     list-style: none;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .cards li {
