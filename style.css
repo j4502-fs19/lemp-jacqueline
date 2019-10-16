@@ -121,7 +121,7 @@ img {
     padding: 8px;
     list-style: none;
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
