@@ -31,17 +31,17 @@ h2 {
   font-weight: 300;
 }
 
-#nav {
+#other {
   padding: 0;
   list-style-type:none;
 }
 
-#nav li{
+#other li{
   padding: 0;
   border-bottom: 1px solid #ccc;
 }
 
-#nav a:link, a:visited {
+#other a:link, a:visited {
 display:block;
 color: #fff;
 background-color: #854DFF;
@@ -53,7 +53,7 @@ text-decoration: none;
 padding: 4px;
 }
 
-#nav a:hover, a:visited {
+#other a:hover, a:visited {
 background-color: #6300BF
 }
 
@@ -63,7 +63,7 @@ img {
   background-color: lavender;
 }
 
-.nav {
+.other {
   display: flex;
   height: 150px;
 	flex-direction: row;
@@ -132,4 +132,66 @@ img {
  p{
    font-size: 1.5em;
  }
+}
+
+
+nav ul li {
+  display: block;
+  border-top: 1px #79896D solid;
+}
+
+nav a {
+  color: #F8ECC2;
+  display: block;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+header {
+  background-color: #B566FF;
+  margin: 0;
+  padding: 0 10px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+}
+
+.menu-trigger {
+  order: 1;
+  font-size: 1.75em;
+  width: 2em;
+}
+
+header h1 {
+  order: 2;
+  color: white;
+  font-size: 2em;
+}
+
+nav ul {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    border-top: none;
+  }
+
+  .menu-trigger {
+    display: none;
+  }
+
+  header h1 {
+    order: 1;
+  }
+
+  nav {
+    order: 2;
+  }
 }
