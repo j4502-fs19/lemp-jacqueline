@@ -13,7 +13,7 @@ p {
 
 
 body {
-  background-color: lavender;
+  background-color: #A4EBE8;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h2 {
 #other a:link, a:visited {
 display:block;
 color: #fff;
-background-color: #854DFF;
+background-color: #00C4CC;
 font-family: 'Cabin', Georgia, sans-serif;
 font-weight:bold;
 font-size: 32px;
@@ -54,13 +54,13 @@ padding: 4px;
 }
 
 #other a:hover, a:visited {
-background-color: #6300BF
+background-color: #00C4CC
 }
 
 
 img {
   border: none;
-  background-color: lavender;
+  background-color: #A4EBE8;
 }
 
 .other {
@@ -86,7 +86,7 @@ img {
 }
 
 .cards li {
-    background-color: #854DFF;
+    background-color: #00C4CC;
     border: 1px solid #ccc;
     margin: 0 10px 20px 10px;
     padding: 10px;
@@ -137,7 +137,7 @@ img {
 
 nav ul li {
   display: block;
-  border-top: 1px #79896D solid;
+  border-top: 1px #00C4CC solid;
 }
 
 nav a {
@@ -148,7 +148,7 @@ nav a {
 }
 
 header {
-  background-color: #B566FF;
+  background-color: #1A595B;
   margin: 0;
   padding: 0 10px;
 }
